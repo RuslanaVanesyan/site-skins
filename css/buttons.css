@@ -1,0 +1,130 @@
+.primary-button {
+  background-color: #FF6700;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.1875rem;
+  cursor: pointer;
+  transition: background 0.2s ease; }
+  .primary-button:hover {
+    background: #cd5200; }
+
+.primary-button--font-size--xs {
+  font-size: 12px; }
+
+.primary-button--font-size--s {
+  font-size: 14px; }
+
+.primary-button--font-size--m {
+  font-size: 16px; }
+
+.primary-button--hidden {
+  display: none; }
+
+.primary-button--display--block {
+  display: block; }
+
+.primary-button--height--xxxs {
+  height: 30px; }
+
+.primary-button--height--xxs {
+  height: 32px; }
+
+.primary-button--height--xs {
+  height: 38px; }
+
+.primary-button--height--s {
+  height: 40px; }
+
+.primary-button--margin-top--s {
+  margin-top: 15px; }
+
+.primary-button__margin-left--xs {
+  margin-left: 0.625rem; }
+
+.primary-button--margin-left--s {
+  margin-left: 20px; }
+
+.primary-button--padding--xs {
+  padding: 0 22px; }
+
+.primary-button--padding--s {
+  padding: 0 28px; }
+
+.secondary-button {
+  background: transparent;
+  border-radius: 3px;
+  cursor: pointer; }
+
+.secondary-button--height--xxxs {
+  height: 30px; }
+
+.secondary-button--height--xxs {
+  height: 32px; }
+
+.secondary-button--height--xs {
+  height: 38px; }
+
+.secondary-button--height--s {
+  height: 40px; }
+
+.secondary-button--border-color--grey {
+  border: 1px solid #8689AF; }
+  .secondary-button--border-color--grey:hover {
+    border: 1px solid #e7e7e7; }
+
+.secondary-button--border-color--orange {
+  border: 1px solid #FF7200; }
+  .secondary-button--border-color--orange:hover {
+    border: 1px solid #e7e7e7; }
+
+.secondary-button--color--grey {
+  color: #8689AF; }
+
+.secondary-button--color--white {
+  color: #FFFFFF; }
+
+.secondary-button--font-size--xs {
+  font-size: 12px; }
+
+.secondary-button--font-size--s {
+  font-size: 14px; }
+
+.secondary-button--font-weight--s {
+  font-weight: 500; }
+
+.secondary-button--font-weight--m {
+  font-weight: 600; }
+
+.secondary-button--margin-x--m {
+  margin-right: 40px;
+  margin-left: 40px; }
+
+.secondary-button--margin-bottom--m {
+  margin-bottom: 37px; }
+
+.collapse-button {
+  font-size: 12px;
+  font-weight: 500;
+  color: #FF7200;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex; }
+  .collapse-button:hover {
+    color: #cd5200; }
+
+.collapse-button--margin-x--auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.collapse-button--padding-top--xs {
+  padding-top: 7px; }
+
+.collapse-button--padding-top--s {
+  padding-top: 17px; }
+
+.collapse-button--padding-bottom--s {
+  padding-bottom: 17px; }
+
+/*# sourceMappingURL=buttons.css.map */

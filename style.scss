@@ -1,0 +1,120 @@
+html, body, button, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+@import "css/fonts";
+@import "css/container";
+@import "css/buttons";
+@import "css/h";
+@import "css/input";
+@import "css/page-navigation";
+@import "css/delimiter";
+
+@import "css/header";
+@import "css/main-screen";
+@import "css/slider-block";
+@import "css/benefits";
+@import "css/carousel-block";
+@import "css/news-block";
+@import "css/seo-text-block";
+@import "css/subscribe-block";
+@import "css/footer";
+
+@import "css/market";
+@import "css/popup-window";
+@import "css/skin-page";
+@import "css/cart";
+@import "css/discount";
+
+@import "css/sell-skins";
+
+
+.body {
+	font-family: 'Avenir Next Cyr', sans-serif;
+	color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1rem;
+	margin: 0;
+}
+.body--background-dark-1 {
+	background: #262839;
+}
+.body--background-dark-2 {
+	background: url("/images/bg/bg-line-big.svg") #1E1F2B;
+}
+.body__section--background-with-lines {
+	background-color: #262839;
+	background-image: url("/images/bg/bg-line.svg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.body__section--background-with-big-lines {
+	background-image: url("/images/bg/bg-line-big.svg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.background-gradient-dark1 {
+	background: linear-gradient(352.07deg, #393B5B 0%, rgba(38, 39, 51, 0.19) 100%);
+}
+.background-with-rhombus {
+	background: #3B3E6C no-repeat center url("/images/bg/bg-rhombus.svg");
+}
+.background-gradient-dark2 {
+	background: linear-gradient(359.76deg, #393B5B -6.86%, rgba(38, 39, 51, 0.19) 107.53%);
+}
+.page-titles {
+	margin-bottom: 38px;
+	text-align: center;
+}
+

@@ -1,0 +1,13 @@
+.sell-skins {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px; }
+
+.sell-skins__block {
+  background: #262839;
+  border-radius: 3px; }
+
+.sell-skins__block--padding--s {
+  padding: 20px 40px 40px 40px; }
+
+/*# sourceMappingURL=sell-skins.css.map */

@@ -1,0 +1,109 @@
+.popup-window {
+  display: none;
+  background: rgba(0,0,0,.35);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 1rem;
+  z-index: 6;
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 0;
+  transition: .3s opacity;
+}
+.popup-window--display--flex {
+  display: flex;
+}
+.popup-window--opacity--1 {
+  opacity: 1;
+}
+
+.popup-window__content {
+  background: #262839;
+  border: 1px solid #8689AF;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.popup-window__content--flex-direction--column {
+  flex-direction: column;
+}
+.popup-window__content--width--s {
+  width: 550px;
+}
+.popup-window__content--padding--m {
+  padding: 25px 21px;
+}
+.popup-window__icon {
+  background-size: 53px 53px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 53px;
+  height: 53px;
+}
+.popup-window__icon-success {
+  background-image: url("/images/popup-success-icon.svg");
+}
+.popup-window__icon-attention {
+  background-image: url("/images/popup-attention-icon.svg");
+}
+.popup-window__icon--margin-bottom--m {
+  margin-bottom: 35px;
+}
+.popup-window__title {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  text-transform: uppercase;
+  color: #E7E7E7;
+}
+.popup-window__title--margin-bottom--s {
+  margin-bottom: 20px;
+}
+.popup-window__description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.44px;
+  color: #8689AF;
+  text-align: center;
+}
+.popup-window__description--text--red {
+  color: #CC5D5D;
+}
+.popup-window__description--margin-bottom--s {
+  margin-bottom: 20px;
+}
+.popup-window__link {
+  color: #FF7200;
+  text-decoration: none;
+  &:hover {
+    color: #cd5200;
+  }
+}
+
+.popup-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  padding: 10px;
+  &:hover .popup-close-icon {
+    fill: #e7e7e7;
+  }
+}
+.popup-close-icon {
+  width: 14px;
+  height: 14px;
+  fill: #717495;
+}

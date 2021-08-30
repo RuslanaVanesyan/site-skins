@@ -1,0 +1,25 @@
+@import "trustpilot";
+
+.main-screen {
+  background-image: url(/images/bg/bg.png), radial-gradient(36.32% 153.7% at 50% 50%, rgba(59, 62, 108, 0.4) 0%, rgba(59, 62, 108, 0) 100%);
+  background-position: center center;
+  background-size: cover;
+  height: calc(100vh - 5rem);
+  min-height: 500px;
+}
+
+.main-screen__container {
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.main-screen__center-block {
+  height: calc(100vh - 5rem);
+  min-height: 500px;
+  display: flex;
+  width: 31.0625rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

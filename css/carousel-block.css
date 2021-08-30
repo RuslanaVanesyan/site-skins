@@ -1,0 +1,214 @@
+.carousel-block {
+  padding-bottom: 37px;
+  padding-top: 40px; }
+
+.user-reviews {
+  background: linear-gradient(174deg, #393B5B -6.86%, rgba(38, 39, 51, 0.19) 107.53%); }
+
+.carousel--margin-top--m {
+  margin-top: 47px; }
+
+.carousel--margin-bottom--s {
+  margin-bottom: 38px; }
+
+.carousel__item {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.carousel__item-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.review {
+  width: 33%;
+  box-sizing: border-box; }
+
+.review--background--dark {
+  background-color: #000000; }
+
+.review--height--s {
+  height: 213px; }
+
+.review--height--m {
+  height: 224px; }
+
+.review--border {
+  border: 1px solid #8689AF;
+  border-radius: 3px; }
+
+.slick-center.review--border {
+  border: 1px solid #FF7200; }
+
+.review--padding {
+  padding: 26px 18px 19px 18px; }
+
+.review__text {
+  height: 90px;
+  font-size: 14px;
+  line-height: 19px; }
+
+.review__text--padding-bottom--xs {
+  padding-bottom: 7px; }
+
+.review__show-more-button {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: #8689AF;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  background: transparent;
+  border: none; }
+
+.review__show-more-button--padding-top--xs {
+  padding-top: 8px; }
+
+.review__show-more-button--padding-bottom--xs {
+  padding-bottom: 7px; }
+
+.review__footer {
+  display: flex; }
+
+.review__footer--padding-top {
+  padding-top: 8px; }
+
+.review__footer--margin-top--auto {
+  margin-top: auto; }
+
+.review__user-icon {
+  background-image: url("/images/user-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  border-radius: 3px;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px; }
+
+.review__user-info {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column; }
+
+.review__username {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #717495;
+  line-height: 25px; }
+
+.review__time {
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: #F5F5F5;
+  margin-top: auto; }
+
+.review__right-block {
+  margin-left: auto; }
+
+.review__trustpilot-logo {
+  width: 80px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: bottom; }
+
+.review__value {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #00B67A;
+  font-weight: 600;
+  color: #f5f5f5;
+  font-size: 18px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
+
+.carousel-nav__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.carousel-arrow {
+  cursor: pointer;
+  width: 15px;
+  height: 8px;
+  fill: #f5f5f5;
+  padding: 5px 0;
+  transition: 0.2s fill; }
+  .carousel-arrow:hover {
+    fill: #717495; }
+
+.arrow-prev {
+  transform: rotate(180deg); }
+
+.slides-num {
+  margin: 0 9px;
+  font-size: 18px;
+  font-weight: 500; }
+
+.slides-num__color {
+  color: #717495; }
+
+.video {
+  background-image: url("/images/bloggers/preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.video__inner {
+  padding: 10px 19px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  background: rgba(30, 31, 43, 0.7);
+  border-radius: 3px; }
+
+.slick-center .video__inner {
+  background: linear-gradient(357.97deg, rgba(38, 39, 51, 0.5) 38.67%, rgba(255, 255, 255, 0) 96.96%);
+  border-radius: 3px; }
+
+.video__info {
+  position: absolute;
+  align-self: flex-end;
+  text-align: left;
+  justify-content: start; }
+
+.video__play-button {
+  width: 27px;
+  height: 24px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  transition: width 0.5s, height 0.5s; }
+
+.slick-center .video__play-button {
+  display: block; }
+
+.video:hover .video__play-button {
+  width: 42px;
+  height: 38px; }
+
+.video__name {
+  color: #8689AF; }
+
+.slick-center .video__name {
+  color: #f5f5f5; }
+
+.video__name--uppercase {
+  text-transform: uppercase; }
+
+.video__text {
+  font-size: 12px;
+  color: #f5f5f5;
+  visibility: hidden;
+  padding-top: 8px; }
+
+.slick-center .video__text {
+  visibility: visible; }
+
+/*# sourceMappingURL=carousel-block.css.map */

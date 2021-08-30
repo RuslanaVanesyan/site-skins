@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("../fonts/avenirnextcyr-regular.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../fonts/avenirnextcyr-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/avenirnextcyr-regular.woff2") format("woff2"), url("../fonts/avenirnextcyr-regular.woff") format("woff"), url("../fonts/avenirnextcyr-regular.ttf") format("truetype"), url("../fonts/avenirnextcyr-regular.svg#avenirnextcyr-regular") format("svg");
+  /* Chrome < 4, Legacy iOS */
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("../fonts/avenirnextcyr-medium.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../fonts/avenirnextcyr-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/avenirnextcyr-medium.woff2") format("woff2"), url("../fonts/avenirnextcyr-medium.woff") format("woff"), url("../fonts/avenirnextcyr-medium.ttf") format("truetype"), url("../fonts/avenirnextcyr-medium.svg#avenirnextcyr-medium") format("svg");
+  /* Chrome < 4, Legacy iOS */
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("../fonts/avenirnextcyr-demi.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../fonts/avenirnextcyr-demi.eot?#iefix") format("embedded-opentype"), url("../fonts/avenirnextcyr-demi.woff2") format("woff2"), url("../fonts/avenirnextcyr-demi.woff") format("woff"), url("../fonts/avenirnextcyr-demi.ttf") format("truetype"), url("../fonts/avenirnextcyr-demi.svg#avenirnextcyr-demi") format("svg");
+  /* Chrome < 4, Legacy iOS */
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("../fonts/avenirnextcyr-bold.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../fonts/avenirnextcyr-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/avenirnextcyr-bold.woff2") format("woff2"), url("../fonts/avenirnextcyr-bold.woff") format("woff"), url("../fonts/avenirnextcyr-bold.ttf") format("truetype"), url("../fonts/avenirnextcyr-bold.svg#avenirnextcyr-bold") format("svg");
+  /* Chrome < 4, Legacy iOS */
+  font-weight: 700;
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,77 @@
+.subscribe--padding-y--s {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.subscribe__inner {
+  width: 50%;
+  background: center 8px/544px 155px no-repeat url("/images/bg/mail-bg.svg") #262839;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  border: 1px solid #8689AF;
+  align-items: center;
+  padding: 40px 40px 35px 40px;
+  box-sizing: border-box;
+}
+
+.subscribe__icon {
+  width: 60px;
+  height: 60px;
+}
+
+.subscribe__icon--padding-bottom--s {
+  padding-bottom: 38px;
+}
+
+.subscribe__title {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.subscribe__title--padding-bottom--s {
+  padding-bottom: 8px;
+}
+
+.subscribe__small-message {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.subscribe__small-message--padding-y--s {
+  padding-top: 7px;
+  padding-bottom: 19px;
+}
+
+.subscribe__email-form {
+  display: flex;
+  width: 100%;
+}
+
+.subscribe__email-form--padding-y--s {
+  padding-top: 19px;
+  padding-bottom: 8px;
+}
+
+.subscribe__email-input {
+  flex: 1;
+}
+
+.subscribe__email-input--margin-right-s {
+  margin-right: 20px;
+}
+
+.subscribe__text--padding-top--s {
+  padding-top: 8px;
+}
+
+.subscribe__text {
+  color: #404256;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+

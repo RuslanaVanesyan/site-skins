@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,SAAS;EACjB,gBAAgB,EAAE,OAAO;;AAE3B,6BAA8B;EAC5B,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,IAAI;;AAEb,6BAA8B;EAC5B,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,IAAI",
+"sources": ["delimiter.scss"],
+"names": [],
+"file": "delimiter.css"
+}
